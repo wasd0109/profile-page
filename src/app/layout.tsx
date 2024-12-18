@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} text-gray-600 bg-gradient-to-b from-white to-slate-200 min-h-screen flex flex-col font-sans`}>
         <Navbar />
-        <div className='container flex-1 mx-6'>
+        <div className='flex-1 mx-6'>
           {children}
         </div>
         <Footer />
