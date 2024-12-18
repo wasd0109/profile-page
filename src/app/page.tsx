@@ -1,23 +1,20 @@
-import Link from 'next/link';
-import { FaGithub, FaRegEnvelope } from "react-icons/fa6";
+import BlogCard from '@/components/BlogCard';
+import ProfileCard from '@/components/ProfileCard';
+import { getBlogs } from '@/lib/blogs';
 
 
 export default function Home() {
-  return (
-    <main className="flex flex-col items-center justify-center p-24">
-      <h1 className='prose prose-2xl'>
-        Coming Soon
-      </h1>
-      <div className='divider divider-vertical'>
+  const blogs = getBlogs();
 
-      </div>
-      <div className='w-1/12 flex justify-between'>
-        <Link href="https://github.com/wasd0109" target='_blank'>
-          <FaGithub />
-        </Link>
-        <Link href="mailto:me@monakaken.com">
-          <FaRegEnvelope />
-        </Link>
+  console.log(blogs);
+  return (
+    <main className="flex">
+      <ProfileCard />
+      <div>
+        {blogs.map(blog =>
+          <BlogCard key={blog.title}{...blog} />
+        )
+        }
       </div>
     </main>
   );

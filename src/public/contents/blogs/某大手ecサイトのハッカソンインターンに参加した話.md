@@ -2,7 +2,7 @@
 title: 某大手ECサイトのハッカソンインターンに参加した話
 excerpt: 楽しかったしなんかうまくできた
 hashtags: インターン React
-thumbnail: ../assets/5f19f8038b959234c30f03075d8068f4-5-2-.png
+thumbnail: /assets/5f19f8038b959234c30f03075d8068f4-5-2-.png
 language: jp
 date: 2021-09-10T02:47:08.656Z
 ---

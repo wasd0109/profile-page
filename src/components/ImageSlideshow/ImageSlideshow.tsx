@@ -3,8 +3,8 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
-import profileImage1 from '@/public/assets/oshi.jpg';
-import profileImage2 from '@/public/assets/gun.jpg';
+import profileImage1 from '@/public/images/oshi.jpg';
+import profileImage2 from '@/public/images/gun.jpg';
 
 const images = [
     { image: profileImage1, alt: 'Oshikatsu' },
