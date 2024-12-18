@@ -6,7 +6,7 @@ import { SiApachekafka, SiNextdotjs, SiSpring, SiTailwindcss } from 'react-icons
 function AboutPage() {
     return (
         <main>
-            <div className='flex justify-evenly '>
+            <div className='flex justify-evenly items-center'>
                 <div className='w-96 h-96'>
                     <ImageSlideshow />
                 </div>
@@ -15,7 +15,7 @@ function AboutPage() {
                         <div>
                             <h1 className='text-2xl'>
                                 Hi, I am
-                                <span className='block text-5xl'>
+                                <span className='block text-5xl font-bold'>
                                     Ken Cheung
                                 </span>
                             </h1>
