@@ -10,13 +10,18 @@ export default function Navbar() {
             <div className='navbar-end'>
                 <ul className='menu menu-horizontal flex px-1 justify-around'>
                     <li>
+                        <Link href="/">
+                            HOME
+                        </Link>
+                    </li>
+                    <li>
                         <Link href="/about">
-                            About
+                            ABOUT
                         </Link>
                     </li>
                     <li>
                         <Link href="/project">
-                            Project
+                            PROJECT
                         </Link>
                     </li>
                 </ul>
